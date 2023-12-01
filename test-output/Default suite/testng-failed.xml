@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api.tests.UserTest">
+      <class name="com.api.test.activate.AllTestCasesRun">
         <methods>
-          <include name="testPostRepo"/>
-          <include name="setupData"/>
+          <include name="getSingleRepo"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.api.tests.UserTest -->
+      </class> <!-- com.api.test.activate.AllTestCasesRun -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

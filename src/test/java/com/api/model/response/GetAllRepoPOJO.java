@@ -31,6 +31,7 @@ public class GetAllRepoPOJO {
 	@JsonIgnore
 	private Map<String, Object> additionalProperties = new LinkedHashMap<String, Object>();
 
+
 	@JsonProperty("name")
 	public String getName() {
 		return name;
