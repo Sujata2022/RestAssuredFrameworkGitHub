@@ -30,7 +30,7 @@ import io.restassured.response.Response;
 
 public class UserTest {
 
-	private static String mytoken="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";	
+	//private static String mytoken="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";	
 
 	@BeforeTest
 	public void setUp() {
