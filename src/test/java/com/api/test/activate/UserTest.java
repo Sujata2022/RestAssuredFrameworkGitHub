@@ -37,7 +37,7 @@ public class UserTest {
 		RestAssured.baseURI="https://api.github.com";
 	}
 	
-	@Test(dependsOnMethods = "logintoTekarchRequest")
+	@Test
 	public void getAllRecords() {
 		Header header=new Header("token",mytoken);
 		List<GetAllRepoPOJO> listofUser = RestAssured
